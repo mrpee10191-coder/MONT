@@ -1,0 +1,326 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "ShareTechMono", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.header {
+    background: #FFFFFF;
+    padding: 11px 0;
+    border: 1px solid #242424
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.header__nav-list_item-link {
+    font-family: "ShareTechMono", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #242424;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.header__nav-list_item-link:hover {
+    color: #FF0000;
+    transform: scale(1.2);
+}
+
+.header__nav-logo2 img {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    width: 30;
+    height: 30;
+    opacity: 1;
+    padding: 4px 4px 3px 4px;
+}
+
+.banner {
+    height: 90svh;
+    background: url(../img/mont2.png) no-repeat center / cover;
+    margin: 0 0 80px;
+}
+
+.banner__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90svh;
+    position: relative;
+}
+
+.banner__content {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40;
+    align-items: center;
+    justify-content: center;
+    /* transform: translateY(150px); */
+    margin-bottom: 50px;
+}
+
+.banner__content-title {
+    font-family: "ShareTechMono", sans-serif;
+    font-weight: 400;
+    font-size: clamp(1.875rem, 0.655rem + 6.1vw, 5rem);
+    line-height: 100%;
+    color: #242424;
+    margin-bottom: 50px;
+}
+
+.banner__content-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    font-family: "ShareTechMono";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #242424;
+    text-transform: uppercase;
+    background: transparent;
+    max-width: 263px;
+    width: 100%;
+}
+
+.banner__btn {
+    padding: 16px;
+    max-width: 263px;
+    width: 100%;
+    border: 2px solid #242424;
+    font-family: "ShareTechMono";
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #FFFFFF;
+
+}
+
+.part1__left img {
+    max-width: 639px;
+    width: 100%;
+    height: auto;
+}
+
+
+.part1__right img {
+    max-width: 451px;
+    width: 100%;
+
+}
+
+.part1 {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.part1__right-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 36px;
+}
+
+.part1__right-top_left {
+    font-family: "ShareTechMono";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #242424;
+    font-family: "ShareTechMono";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.part1__right-bottom {
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.part1__right-bottom_link {
+    gap: 30px;
+    justify-content: space-between;
+    font-family: "ShareTechMono";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #242424;
+    flex-direction: column;
+    display: flex;
+}
+
+.part2 {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.part2__left {
+    max-width: 565px;
+    width: 100%;
+
+
+}
+
+.part2__left-top_right {
+    width: 168px;
+    height: 2px;
+    background: #242424;
+}
+
+.part2__left-top {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.part2__left-top_left {
+    font-family: "ShareTechMono";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #242424;
+
+}
+
+.part2__left-center {
+    font-family: "ShareTechMono", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #242424;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.part2__left-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 263px;
+    width: 100%;
+    padding: 16px 0;
+    border: 2px solid #242424;
+    background: transparent;
+
+}
+
+.part2__left-bottom-text {
+
+
+    font-family: "ShareTechMono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+    color: #242424;
+
+}
+
+.part2__right {
+    max-width: 545px;
+    width: 100%;
+}
+
+.part2__right img {
+    max-width: 545px;
+    width: 100%;
+    height: auto;
+
+}
+
+.footer {
+    border: 1px solid #242424;
+    margin-top: 140px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.footer__comments-bottom {
+    max-width: 268px;
+    width: 100%;
+}
+
+.footer__comments-bottom {
+    margin-top: 20px;
+
+}
+
+.footer__contacts-p {
+    margin-bottom: 20px;
+}
+
+.footer__contacts-number {
+    margin-bottom: 20px;
+}
+
+.footer__massangers-bottom {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__massangers-top {
+    margin-bottom: 45px;
+}
+
+.part1__right-top_right {
+    width: 168px;
+    height: 2px;
+    background: #242424;
+}
